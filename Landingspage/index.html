@@ -4,14 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Japan Museum</title>
+    <title>Japan Musea</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/index.js" defer></script>
 </head>
-<body>
+<body id="js--body">
     <header class="header">
         <h1 class="headerTitle">Japan Musea</h1>
-        <button class="headerButton">Menu</button>
+        <button id="js--menu" class="headerButton">Menu</button>
     </header>
+    <nav id="js--nav" class="mainNavigation">
+        <p id="js--closeMenu" class=closeMenuButton>X</p>
+        <ul class="mainNavigationList">
+            <li class="mainNavigationListItem">
+                <a href="">Home</a>
+            </li>
+            <li class="mainNavigationListItem">
+                <a href="">Collection #1</a>
+            </li>
+            <li class="mainNavigationListItem">
+                <a href="">Collection #2</a>
+            </li>
+            <li class="mainNavigationListItem">
+                <a href="">Collection #3</a>
+            </li>
+        </ul>
+    </nav>
     <main>
         <figure class="bigFigure">
             <img src="img/japan.jpg" alt="Lichtjes in Japan">
@@ -20,22 +38,22 @@
             <h2 class="collectionsTitle">Collections</h2>
             <ul class="collectionsList">
                 <li class="collectionsListItem">
-                    <img src="img/1.jpg" alt="">
+                    <img src="img/1.jpg" alt="Tekening van Japanse vrouw met een waaier">
                 </li>
                 <li class="collectionsListItem">
-                    <img src="img/2.jpg" alt="">
+                    <img src="img/2.jpg" alt="Tekening van een Japanse vrouw met een kat die aan stokjes in haar haar zit">
                 </li>
                 <li class="collectionsListItem">
-                    <img src="img/3.png" alt="">
+                    <img src="img/3.png" alt="Tekening van een rode zon boven water golven">
                 </li>
                 <li class="collectionsListItem">
-                    <img src="img/4.jpg" alt="">
+                    <img src="img/4.jpg" alt="Tekening van vissen onder water">
                 </li>
                 <li class="collectionsListItem">
-                    <img src="img/5.jpg" alt="">
+                    <img src="img/5.jpg" alt="Tekening van Japanse Samurai op een pad door de wind">
                 </li>
                 <li class="collectionsListItem">
-                    <img src="img/6.jpg" alt="">
+                    <img src="img/6.jpg" alt="Tekening van 2 vogels die boven wolken en een rode zon vliegen">
                 </li>
             </ul>
         </section>
@@ -94,7 +112,7 @@
             </li>
         </ul>
         <address>
-            Contactweg 36
+            Contactweg 36<br>
             Amsterdam
         </address>
     </footer>
